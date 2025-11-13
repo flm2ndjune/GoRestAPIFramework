@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-13T10:04:07 IST" name="Suite" finished-at="2025-11-13T10:04:11 IST" duration-ms="4392">
+    <groups>
+    </groups>
+    <test started-at="2025-11-13T10:04:07 IST" name="Test" finished-at="2025-11-13T10:04:11 IST" duration-ms="4392">
+      <class name="tests.UserTests">
+        <test-method is-config="true" signature="setUserData()[pri:0, instance:tests.UserTests@33d512c1]" started-at="2025-11-13T10:04:07 IST" name="setUserData" finished-at="2025-11-13T10:04:07 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUserData -->
+        <test-method signature="createUserTest()[pri:1, instance:tests.UserTests@33d512c1]" started-at="2025-11-13T10:04:07 IST" name="createUserTest" finished-at="2025-11-13T10:04:10 IST" duration-ms="2631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="getUserByIdTest()[pri:2, instance:tests.UserTests@33d512c1]" started-at="2025-11-13T10:04:10 IST" name="getUserByIdTest" finished-at="2025-11-13T10:04:10 IST" depends-on-methods="tests.UserTests.createUserTest" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByIdTest -->
+        <test-method signature="updateUserTest()[pri:3, instance:tests.UserTests@33d512c1]" started-at="2025-11-13T10:04:10 IST" name="updateUserTest" finished-at="2025-11-13T10:04:11 IST" depends-on-methods="tests.UserTests.createUserTest" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method signature="deleteUserTest()[pri:4, instance:tests.UserTests@33d512c1]" started-at="2025-11-13T10:04:11 IST" name="deleteUserTest" finished-at="2025-11-13T10:04:11 IST" depends-on-methods="tests.UserTests.createUserTest" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- tests.UserTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
